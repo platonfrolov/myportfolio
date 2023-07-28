@@ -39,7 +39,7 @@ const CardSlider = styled(Slider)`
     ${tw`h-auto flex justify-center mb-1`}
   }
 `;
-const Card = tw.div`rounded-lg h-full flex! flex-col sm:border max-w-sm`;
+const Card = tw.div`rounded-lg h-full flex! flex-col max-w-sm shadow`;
 const CardImage = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
   tw`rounded-lg w-full h-56 sm:h-64 bg-cover bg-center`
