@@ -2,6 +2,7 @@
   "name": "treact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://platonfrolov.github.io/myportfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^1.0.0",
