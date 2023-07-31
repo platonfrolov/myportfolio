@@ -122,7 +122,7 @@ const TextFadeInOut = () => {
 
 export default ({
   t = TextFadeInOut,
-  heading = "My name is Platon Frolov",
+  heading = "Platon Frolov",
   description = "I am a graduate data scientist based in Zürich, with a background in computer science and a strong passion for mathematics. I specialize in machine learning, statistics, computer vision, optimization, and software engineering. My goal is to leverage these skills to uncover valuable insights from data and contribute meaningfully to the field of data science.",
   primaryButton1Text = "Say Hello",
   primaryButton2Text = "Resume",
