@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading } from "components/misc/Headings";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons";
@@ -108,26 +109,28 @@ export default () => {
       title: "AlterEgo",
       description: "A plug-in for clothing brands to visualize how different cloths and sizes fit on a human.",
       year: "2023",
+      id: "/project/ae"
     },
     {
       imageSrc: UTMLScreenshot,
       title: "UTML",
       description: "Light weight version of Google Draw with functionality and UI tailored for teaching purposes at the University of Twente.",
       year: "2021",
+      id: "/project/utml"
     },
     {
       imageSrc: APScreenshot,
       title: "Audio Playground",
       description: "A tool to transcribe/annotate interviews and visualize interview data.",
-      locationText: "Ibiza, Spain",
-      pricingText: "USD 50/Day",
       year: "2020",
+      id: "/project/ap"
     },
     {
       imageSrc: DSLScreenshot,
       title: "Tree Restoration Monitoring",
       description: "Machine learning models to segment and cluster/classify trees from drone imagery.",
       year: "2022",
+      id: "/project/dsl"
     },
     // {
     //   imageSrc: DSLScreenshot,
@@ -144,6 +147,8 @@ export default () => {
       year: "",
     },
   ]
+
+
 
   return (
     <Container id="projects">
@@ -169,7 +174,9 @@ export default () => {
                 </TitleReviewContainer>
                 <Description>{card.description}</Description>
               </TextInfo>
-              <PrimaryButton css={highlightGradientsCss[0]}>Go to project</PrimaryButton>
+              <Link to={card.id}>
+                <PrimaryButton css={highlightGradientsCss[0]}>Go to project</PrimaryButton>
+              </Link> 
             </Card>
           ))}
         </CardSlider>

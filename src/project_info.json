@@ -1,0 +1,52 @@
+{
+    "projects":   {
+        "ae": {
+            "name": "Alter-Ego",
+            "short_description": "",
+            "description": "In this project, I worked in a start-up which provides a 3D virtual fitting solution to E-commmerce platforms. Given a single full-body image of a shopper and sewing patterns of a garment piece, we presented a 3D avatar with the given cloth fit on the body. <br><br> In this project I was responsible for the processing the sewing patterns (DXF files) into 3D garments. This involved <ul><li>Pre-processing the DXF files</li><li>Defining an internal representation</li><li>Manipulating the meshes in such a way that they can be sewn together</li><li>Modelling the sewing of cloth pieces as a mathematical optimization problem</li><li>Placing the sewn cloth correclty on the avatar and physically simulate it into a 3D garment</li></ul>Besides the above tasks, I played a significant role in designing and implementing all internal representations, pipelines and infrastructures. Furthermore, I gained experience in deploying applications with AWS and Docker.",
+            "images": []
+        },
+        "dsl":{
+            "name": "Data Science Lab",
+            "short_description": "",
+            "description": "",
+            "images": []
+        },
+        "utml": {
+            "name": "UTML",
+            "short_description": "",
+            "description": "",
+            "images": []
+        },
+        "snake": {
+            "name": "Snake",
+            "short_description": "",
+            "description": "",
+            "images": []
+        },
+        "tetris": {
+            "name": "Tetris",
+            "short_description": "",
+            "description": "",
+            "images": []
+        },
+        "bt": {
+            "name": "Bachelor Thesis",
+            "short_description": "",
+            "description": "",
+            "images": []
+        },
+        "chess": {  
+            "name": "Chess",
+            "short_description": "",
+            "description": "",
+            "images": []
+        }
+    },
+    "not_found": {
+        "name": "Project not found",
+        "description": "",
+        "short_description": "",
+        "images": []
+    }
+}

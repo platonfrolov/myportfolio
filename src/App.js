@@ -102,6 +102,7 @@ import AnimationRevealPage from "helpers/AnimationRevealPage"
 import Hero from "components/hero/TwoColumnWithPrimaryBackground"
 import Projects from "components/cards/ThreeColSlider"
 import Contact from "components/pricing/ThreePlans"
+import Main from "components/Main";
 
 function App() {
   return (
@@ -109,6 +110,7 @@ function App() {
       <Hero id="hero"/>
       <Projects id="projects"/>
       <Contact id="contact"/>
+      {/* <Main /> */}
     </AnimationRevealPage>
   )
 }
