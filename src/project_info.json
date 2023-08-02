@@ -15,18 +15,24 @@
         "utml": {
             "name": "UTML",
             "short_description": "",
-            "description": "",
+            "description": "This project was done with three peer students for the so-called 'Desgin Project' in my bachelor at the University of Twente. The goal of the project was to create a web tool for drawing UML diagrams such as activity diagrams, activity diagrams, state machine diagrams etc. Or in other words, draw.io but then simpler, with a more intuitive UI and specifically tailored for usage in courses at the University of Twente. <br><br> We started off by gathering requirements from Professors and Teaching assistants from courses which involved diagram drawings. These requirements were turned into features and were implemented. We implemented the app with an Angular frontend and a Java Spring backend. <br><br> In this Project, I was responsible mostly for implementing functionality on the front end. I implemented the following things: <ul><li>Creating objects</li><li>Moving objects</li><li>Resizing objects</li><li>Drawing edges/links</li><li>Zooming</li><li>Panning</li><li>(Multi-)Selecting</li><li>Typing text inside SVG objects</li><li>Implementing different UML diagram components</li></ul> <br> In the end, this project was graded a 9/10 and we were asked to maintain the code and develop the application further as employees of the university. Since I was going to ETH a few months after the project, I decided not to do this. <br><br> Nowadays, the tool is still used in various courses at the University of Twente, it is linked to the login system of the University of Twente so that students can load and save their personal diagrams, and it is even used in exam settings now. The project can be viewed <a href='https://utml.utwente.nl'><u>here</u></a>. Code is publicly available <a href='https://github.com/andrewjh9/UTML'><u>here</u></a>.",
+            "images": []
+        },
+        "ap": {
+            "name": "Audio Playground",
+            "short_description": "",
+            "description": "I worked on this project during the time I worked at the Social Science Innovation lab (BMS Lab) at the University of Twente. The goal of this project was to create an online platform for social sciences researchers to upload/save/retreive audio files and/or transcription of interviews. Besides that it was possible to create or adapt transcriptions of interviews and to label speaking turns in the interview. After labeling the speaking turns of the interview, one could see graphics which with an analysis of the speaking turns in the interview. <br><br> For the transcriptions we worked with the AmberScript JSON format. The app was developed in plain HTML/CSS/JS/PHP/SQL. <br><br> My contributions consisted of: <ul><li>Refactoring the codebase for better maintainability</li><li>Implementing the uploading/saving/retreiving of audio and transcription files</li><li>Creating the Audio player</li><li>Implementing and designing how to label speaking turns in an interview</li><li>Creating the analysis graphics for speaking times in interviews</li></ul> Nowadays the project is still used by researchers from social sciences faculties at the University of Twente. The project is closed and only available on request. Code is not publicly available.",
             "images": []
         },
         "snake": {
             "name": "Snake",
             "short_description": "",
-            "description": "",
+            "description": "In this personal project I implemented the game Snake from scratch in Python.",
             "images": []
         },
         "tetris": {
             "name": "Tetris",
-            "short_description": "",
+            "short_description": "In this personal project I implemented the game Tetris from scratch in Python.",
             "description": "",
             "images": []
         },
@@ -39,7 +45,7 @@
         "chess": {  
             "name": "Chess",
             "short_description": "",
-            "description": "",
+            "description": "I have been playing Chess since I was a small child. For a very long time already I was thinking to implement the game of Chess myself. Recently I found the time and motivation to do it. I decided to do it in Java to dust off my Java which I have not used in a few years. <br><br> The implementation was pretty straightforward since classes/objects share a lot of properties and the logic is quite simple. The difficulty lies in defining the right data structures and superclasses and inheriting from them. In the end I think I did quite a good job in that, the only thing is that in the end I realized that the en passant move is the only move where one can take an opponents' piece by not moving to the same square as the opponents' piece. This I did not take into account when initally designing the logic and data structures, which led to some mess in the end. <br><br> Overall I am happy with how it turned out. One extension for the future I was thinking of is making the game so that you can play over sockets on your local network with friends. Code is available <a href='https://github.com/platonfrolov/chess'><u>here</u></a>.",
             "images": []
         }
     },
