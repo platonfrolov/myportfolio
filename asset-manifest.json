@@ -1,13 +1,11 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.6c95fc5e.css",
-    "main.js": "/myportfolio/static/js/main.60385959.js",
+    "main.js": "/myportfolio/static/js/main.14c8a9d3.js",
     "static/media/platon_in_zurich.jpg": "/myportfolio/static/media/platon_in_zurich.d6080c932bb6f4708b8e.jpg",
     "static/media/keyboard_key_p.png": "/myportfolio/static/media/keyboard_key_p.39bed9eea39f5d9c3540.png",
     "index.html": "/myportfolio/index.html",
     "static/media/svg-decorator-blob-6.svg": "/myportfolio/static/media/svg-decorator-blob-6.ea7897a9cabd18823c4ab12c47c149b9.svg",
-    "static/media/svg-decorator-blob-5.svg": "/myportfolio/static/media/svg-decorator-blob-5.3175ec4088eed43061604a370e074787.svg",
-    "static/media/svg-decorator-blob-7.svg": "/myportfolio/static/media/svg-decorator-blob-7.04fa60c9416090a003233f93c9de14b1.svg",
     "static/media/arrow-right-icon.svg": "/myportfolio/static/media/arrow-right-icon.c4ea6a92d136f418f96b1c9e930f56cc.svg",
     "static/media/menu.svg": "/myportfolio/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/trending-up.svg": "/myportfolio/static/media/trending-up.ebfe9a72d68a3815181771098350599d.svg",
@@ -16,10 +14,10 @@
     "static/media/x.svg": "/myportfolio/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/logo.svg": "/myportfolio/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg",
     "main.6c95fc5e.css.map": "/myportfolio/static/css/main.6c95fc5e.css.map",
-    "main.60385959.js.map": "/myportfolio/static/js/main.60385959.js.map"
+    "main.14c8a9d3.js.map": "/myportfolio/static/js/main.14c8a9d3.js.map"
   },
   "entrypoints": [
     "static/css/main.6c95fc5e.css",
-    "static/js/main.60385959.js"
+    "static/js/main.14c8a9d3.js"
   ]
 }
