@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.fb6375d5.css",
-    "main.js": "/myportfolio/static/js/main.0b71fe43.js",
+    "main.js": "/myportfolio/static/js/main.8f2a3d1b.js",
     "static/media/platon_in_zurich.jpg": "/myportfolio/static/media/platon_in_zurich.d6080c932bb6f4708b8e.jpg",
     "static/media/keyboard_key_p.png": "/myportfolio/static/media/keyboard_key_p.39bed9eea39f5d9c3540.png",
     "index.html": "/myportfolio/index.html",
@@ -14,10 +14,10 @@
     "static/media/x.svg": "/myportfolio/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/logo.svg": "/myportfolio/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg",
     "main.fb6375d5.css.map": "/myportfolio/static/css/main.fb6375d5.css.map",
-    "main.0b71fe43.js.map": "/myportfolio/static/js/main.0b71fe43.js.map"
+    "main.8f2a3d1b.js.map": "/myportfolio/static/js/main.8f2a3d1b.js.map"
   },
   "entrypoints": [
     "static/css/main.fb6375d5.css",
-    "static/js/main.0b71fe43.js"
+    "static/js/main.8f2a3d1b.js"
   ]
 }
